@@ -4,6 +4,7 @@ This repository contains the source code for predicting the toxicity of chemical
 # Files
 
 - Assessment Report
+
 - data.zip includes the pre-processed smiles features. Please uncompress this file. 
 
 - toxicity_modul.py contains the necessary functions for toxicity prediction.
@@ -18,6 +19,8 @@ python model_w_training.py
 
 - model_res_training.py runs the traning process of the CNN model with over-sampled(minority class) dataset .
 python model_res_training.py
+
+- parameter_tuning.py is script for hyperparameter tuning. 
 
 - predict_unknowns.py runs the prediction using the pre-built models.
 
