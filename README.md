@@ -1,4 +1,4 @@
-# Toxicity
+# Toxicity prediction
 This repository contains the source code for predicting the toxicity of chemical compounds from based on SMILES strings.
 
 # Files
