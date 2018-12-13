@@ -3,7 +3,18 @@ import imp
 from toxicity_modul import *
 import pandas as pd
 
+'''
+python model_w_training.py
 
+This script runs the traning process of the CNN model with class weighted.  5-fold cross validation.
+
+It exports the figures for all targets
+- accuracy during training
+- loss during training 
+- the barplots of performance
+- the model is also exported to .h5 file
+
+'''
 
 def main():
     #------------------------ load processed data -----------------------------
